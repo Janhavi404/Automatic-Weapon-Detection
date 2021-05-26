@@ -1,2 +1,40 @@
-# Automatic-Weapon-Detection
+## Automatic-Weapon-Detection
 deployment of a hybrid model for automatic weapon detection/ anomaly detection for surveillance applications
+
+## Literature Survey
+Security is always a main concern in every domain, due to a rise in crime rate in a crowded event or suspicious lonely areas. Weapon detection and monitoring have major applications of computer vision to tackle various problems. Due to growing demand in the protection of safety, security and personal properties, needs and deployment of video surveillance systems can recognize and interpret the scene and anomaly events play a vital role in intelligence monitoring. We implemented weapon detection using a convolution neural network (CNN). Results are tabulated, both algorithms achieve good accuracy, but their application in real situations can be based on the trade-off between speed and accuracy. 
+We surveyed various research evidences and proposed a detection framework which involves three phases detection of objects, recognition of detected objects and alarm system. Single learning based detection framework is used because of  which high  processing speed is achieved. Because dense features need only to  be  evaluated  once  rather  than individually  for  each  detector.  For object detection a framework using a linear support vector machine  classifier  with  histogram  of  oriented  gradients features. Using a combination of ACF(Aggregated Channel Features)  features  and  sp-  LBP(Local  binary pattern)features  can  provide  a  better  trade-off  between detection  performance  and  system  runtime. some techniques are used to post-process raw detection results.  Uses  shrinkage  version  of  AdaBoost  as  the strong classiﬁer and use decision trees as weak learners. 
+To train the classiﬁer, the procedure known as bootstrapping is applied.Shifu Zhou(researcher) et al suggested  a method for detecting  and locating anomalous activities in video sequences of crowded scenes. The key for method is the coupling of anomdescribon with a spatial-temporal Convolutional Neural Networks. This architecture allows us to capture features from both spatial and temporal dimensions by performing spatial-temporal convolutions,  thereby,  both  the  appearance  and  motion information  encoded in continuous  frames are  extracted Two criterions are used for evaluating anomaly detection accuracy namely a frame level criterion and a pixel level criterion. Motion pattern and FRP (False  positive  rates)  are  calculated  for  evaluating performance. And  DR(Detection Rate) corresponds  to the successful  detection  rate  of  the  anomalies  happening  at EER(Equal Error Rate). 
+We also surveyed from various research evidences that  One of the main challenges is to detect anomalies both in time and space domains. This implies to find out which frames that anomalies occur and to localize regions that generate the anomalies within these frames. This model  extracts features from  both  the  spatial  and  the  temporal  dimensions  by performing. 3D convolutions, is achieved by convolving a 3D kernel to the cube formed by stacking multiple contiguous frames together. The issues  are that , accurate  recognition of actions  is  a  highly  challenging  task  due  to  cluttered backgrounds, occlusions, and viewpoint variations perform 3D convolution in the convolutional layers of CNNs so that discriminative  features  along  both  the  spatial  and  the temporal  dimensions  are  captured.3D  convolution  is achieved by stacking multiple contiguous frames together. The  developed  3D  CNN  model  was  trained  using  a supervised  algorithm ,  and  it  requires  a large  number of labelled samples. we propose a novel end-to-end model which integrates the one-class Support Vector Machine (SVM) into Convolutional Neural Network (CNN). Specifically, the robust loss function derived from the one-class SVM  is proposed  to optimize  the parameters  of this model. We proposed a learning  model  for  weapon  detection  from video sequences by combining CNN and SVM. CNN is utilized to learn the underlying high-dimensional normal representations to effectively capture normal features. SVM layer  not  only distinguishes  normal/abnormal cases as  a discriminator, but also optimizes parameters of the whole model as an optimization objective.
+From our exhaustive study of work done and research about Weapon detection model , we proposed a Model which detects the Weapon from video or Picture and activates the alarm.
+
+
+## Features to Detect Weapons / Intruders
+### Knives: 
+We propose algorithms that are able to alert the human operator when a firearm or knife is visible in the image. We have focused on limiting the number of false alarms in order to allow for a real-life application of the system. The specificity and sensitivity of the knife detection are significantly better than others published recently. We have also managed to propose a version of a firearm detection algorithm that offers a near-zero rate of false alarms. We have shown that it is possible to create a system that is capable of an early warning in a dangerous situation, which may lead to faster and more effective response times and a reduction in the number of potential victims.
+
+### Size:
+Estimation of the size of software is an essential part of Software Project Management. It helps the project manager to further predict the effort and time which will be needed to build the project. Various measures are used in project size estimation. Some of these are:
+•	Lines of Code
+•	Number of entities in ER diagram
+•	Total number of processes in detailed data flow diagram
+•	Function points
+
+Find the number of functions belonging to the following types:
+•	External Inputs: Functions related to data entering the system.
+•	External outputs: Functions related to data exiting the system.
+•	External Inquiries: They leads to data retrieval from system but don’t change the system.
+•	Internal Files: Logical files maintained within the system. Log files are not included here.
+•	External interface Files: These are logical files for other applications which are used by our system.
+
+
+
+### Trigger:
+Detecting small objects is a difficult task as these objects are rather smaller than the human. In this section, we will implement a gun detector that trained by using the discriminatively trained part-based models. As our object of interest is gun, we will collect different positive samples from different type of gun related videos. To minimize the amount of supervision, we provide the bounding box of the gun in the first frame where the gun appears and apply the tracking method to let it track for the gun. We will then use the result from the tracker to annotate the gun location in each image. For the negative samples, we will use all the annotation from the Pascal Visual Object Classes Challenge (VOC) as all the annotations are without any gun object. Lastly, all the annotation results of the positive sample and negative samples are used as the input for the DPM to train a gun model. Tracking is required in different stages of our system because the object detector tends to produce sparse detection as the object of interest is too small. 
+
+### Handle
+Cohen’s kappa coefficient is used to check the agreement between experts which is calculated using following formula:
+
+![aaaaa](https://user-images.githubusercontent.com/65353861/119645517-bb521a00-be3b-11eb-8683-aa4e9fff1c0c.png)
+ 
+where pa ¼ proportion of observations for agreement of two experts; pc ¼ proportion of observations for agreement which is expected to happen by chance between two experts. Agreement matrix of proportions is for weapon purchase. Cohen’ Kappa coefficient value was found to be 0.9425 at a ¼ 0.05 (a is probability of confidence interval for kappa statistics) which signifies an almost perfect agreement between the experts. R Programming Package “psych” is used to compute Cohen’s kappa coefficient. Considering significance and magnitude of kappa coefficient so computed, the annotations labelling represents the justification of process of manually labelling approach which can therefore be used in our analysis to train and test our proposed automated illegal weapon procurement model.
