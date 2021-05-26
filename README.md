@@ -1,5 +1,16 @@
-# Automatic-Weapon-Detection
-Deployment of a hybrid model for automatic weapon detection/ anomaly detection for surveillance applications
+<h1 align="center">Automatic Weapon Detection</h1>
+<p align="center"><i>Deployment of a hybrid model for automatic weapon detection/ anomaly detection for surveillance applications.</i></p>
+<div align="center"><p align="center">
+  <a href="https://github.com/Janhavi404/Automatic-Weapon-Detection"><img src="https://img.shields.io/github/stars/Janhavi404/Automatic-Weapon-Detection" alt="Stars Badge"/></a>
+  <a href="https://github.com/Janhavi404/Automatic-Weapon-Detection"><img src="https://img.shields.io/github/forks/Janhavi404/Automatic-Weapon-Detection" alt="Forks Badge"/></a>
+  <a href="https://github.com/Janhavi404/Automatic-Weapon-Detection"><img src="https://img.shields.io/github/issues-pr/Janhavi404/Automatic-Weapon-Detection" alt="Pull Requests Badge"/></a>
+  <a href="https://github.com/Janhavi404/Automatic-Weapon-Detection"><img src="https://img.shields.io/github/issues/Janhavi404/Automatic-Weapon-Detection" alt="Issues Badge"/></a>
+  <a href="https://github.com/Janhavi404/Automatic-Weapon-Detection/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Janhavi404/Automatic-Weapon-Detection"></a>
+  <a href=""><img src="https://img.shields.io/github/license/Janhavi404/Automatic-Weapon-Detection?color=2b9348" alt="License   Badge"/></a></p>
+</div>
+<br>
+<p align="center"><i>Loved the project? Please visit our <a href="#">Website</a></i></p>
+<br>
 
 ## Literature Survey
 Security is always a main concern in every domain, due to a rise in crime rate in a crowded event or suspicious lonely areas. Weapon detection and monitoring have major applications of computer vision to tackle various problems. Due to growing demand in the protection of safety, security and personal properties, needs and deployment of video surveillance systems can recognize and interpret the scene and anomaly events play a vital role in intelligence monitoring. We implemented weapon detection using a convolution neural network (CNN). Results are tabulated, both algorithms achieve good accuracy, but their application in real situations can be based on the trade-off between speed and accuracy. 
