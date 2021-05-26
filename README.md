@@ -2,7 +2,7 @@
 Deployment of a hybrid model for automatic weapon detection/ anomaly detection for surveillance applications
 
 ## Features to Detect Weapons / Intruders
-### Knives: 
+### Weapons: 
 We propose algorithms that are able to alert the human operator when a firearm or knife is visible in the image. We have focused on limiting the number of false alarms in order to allow for a real-life application of the system. The specificity and sensitivity of the knife detection are significantly better than others published recently. We have also managed to propose a version of a firearm detection algorithm that offers a near-zero rate of false alarms. We have shown that it is possible to create a system that is capable of an early warning in a dangerous situation, which may lead to faster and more effective response times and a reduction in the number of potential victims.
 
 ### Size:
